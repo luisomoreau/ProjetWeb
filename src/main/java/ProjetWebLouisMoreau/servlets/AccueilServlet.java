@@ -1,6 +1,5 @@
 package ProjetWebLouisMoreau.servlets;
 
-import javax.servlet.GenericServlet;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,7 +10,7 @@ import java.io.IOException;
 
 @WebServlet("/accueil")
 public class AccueilServlet extends HttpServlet {
-
+//Test
 	private static final long serialVersionUID = 6880801727716084460L;
 
 	@Override
